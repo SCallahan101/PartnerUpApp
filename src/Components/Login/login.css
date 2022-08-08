@@ -1,20 +1,39 @@
 body {
     text-align: center;
 }
-#loginContainer label{
-    width: 100%;
-    display: block;
+
+@media only screen and (max-width: 600px) {
+    #loginContainer label{
+        width: 100%;
+        display: block;
+    }
+    #loginContainer input{
+        width: 60%;
+        margin: 10px auto 2px;
+        display: block;
+        box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+    }
+    #loginContainer button{
+        width: 50%;
+        margin: 20px auto;
+        display: block;
+    }
 }
-#loginContainer input{
-    width: 60%;
-    margin: 10px auto 2px;
-    display: block;
-    box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
+
+@media only screen and (min-width: 600px) {
+
 }
-#loginContainer button{
-    width: 50%;
-    margin: 20px auto;
-    display: block;
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
 }

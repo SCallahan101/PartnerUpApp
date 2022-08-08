@@ -1,21 +1,40 @@
-#signUpContainer{
-    width: 90%;
-    margin: 0 auto;
+
+@media only screen and (max-width: 600px) {
+    #signUpContainer{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #signUpContainer label{
+        width: 100%;
+        display: block;
+    }
+    #signUpContainer input{
+        width: 70%;
+        margin: 10px auto 2px;
+        display: block;
+        box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+    }
+    #signUpContainer button{
+        width: 50%;
+        margin: 20px auto;
+        display: block;
+    }
 }
-#signUpContainer label{
-    width: 100%;
-    display: block;
+
+@media only screen and (min-width: 600px) {
+
 }
-#signUpContainer input{
-    width: 70%;
-    margin: 10px auto 2px;
-    display: block;
-    box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
+
+@media only screen and (min-width: 768px) {
+
 }
-#signUpContainer button{
-    width: 50%;
-    margin: 20px auto;
-    display: block;
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
 }

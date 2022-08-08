@@ -14,6 +14,9 @@ class Login extends Component {
             <label htmlFor="password">Password</label>
             <input type="text" className="loginBox" id="password"/>
             <button type="submit" className="loginBox loginSubmit">Enter</button>
+            <Link to="/main-page">
+              <button>Temp Access to Main Page</button>
+          </Link>
           </form>
           {/* <SignUpForm /> */}
           <h3>OR</h3>
