@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+#loginContainer label{
+    width: 100%;
+    display: block;
+}
+#loginContainer input{
+    width: 60%;
+    margin: 10px auto 2px;
+    display: block;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
+#loginContainer button{
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+}
