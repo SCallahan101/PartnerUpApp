@@ -18,7 +18,7 @@ class Login extends Component {
           {/* <SignUpForm /> */}
           <h3>OR</h3>
           <p>If you are new, then click this</p>
-          <Link to="/sign-up">
+          <Link to="/login/sign-up">
               <button>Sign Up</button>
           </Link>
         </div>

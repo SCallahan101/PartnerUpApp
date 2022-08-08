@@ -1,0 +1,21 @@
+#signUpContainer{
+    width: 90%;
+    margin: 0 auto;
+}
+#signUpContainer label{
+    width: 100%;
+    display: block;
+}
+#signUpContainer input{
+    width: 70%;
+    margin: 10px auto 2px;
+    display: block;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
+#signUpContainer button{
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+}

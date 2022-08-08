@@ -13,7 +13,7 @@ function App() {
       {/* <Login /> */}
       <Routes>
         <Route exact path='/login' element={<Login />} />
-        <Route path='/sign-up' element={<SignUpForm/>} />
+        <Route path='/login/sign-up' element={<SignUpForm/>} />
         
       </Routes>
     </main>
